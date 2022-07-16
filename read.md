@@ -11,6 +11,7 @@
   <div className='article-text-header'>
     <time dateTime='May 11, 2021'>Date: Jul 12, 2022</time><br/>
     <a href='https://0me9a.github.io/the-Quotes/' target"_blank">Github</a><br/>
+    <a href='https://codepen.io/heyomega/pen/ZExLGxe' target"_blank">Codepen</a><br/>
   </div>
   <p>Free and open-source API for Quotes from <a href="https://type.fit/api/quotes" target="_blank">quotes</a>.</p>
 
