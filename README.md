@@ -1,17 +1,7 @@
-<header>
-  <h2>Quotes</h2>
-  <h5>Quotes API has thousands of quotes from famous and great people.</h5>
-</header>
+# Quotes
+### Quotes API has thousands of quotes from famous and great people.
+ ![Screenshot 2022-07-16 083146](https://user-images.githubusercontent.com/83957658/179337176-e83da71d-f82c-46d1-8fd3-33a9f3a3743e.png)
 
-<figure>
-  <img src='https://user-images.githubusercontent.com/83957658/179336892-b6bc50b5-a3cd-4d7c-b78e-b23d95eda74f.png' alt="project preview image"/>
-</figure>
-<br/>
-<div className='article-text'>
-  <div className='article-text-header'>
-    <time dateTime='May 11, 2021'>Date: Jul 12, 2022</time><br/>
-    <a href='https://0me9a.github.io/the-Quotes/' target"_blank">Github</a><br/>
-  </div>
-  <p>Free and open-source API for Quotes from <a href="https://type.fit/api/quotes" target="_blank">quotes</a>.</p>
 
-</div>
+[Github](https://0me9a.github.io/the-Quotes)
+#### Free and open-source API for Quotes from [quotes](https://type.fit/api/quotes)
