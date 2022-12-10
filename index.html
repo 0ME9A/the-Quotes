@@ -1,56 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>The Quotes!</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS v5.2.0-beta1 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  </head>
+<head>
+  <title>The Quotes!</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <style>
-    *{
-      transition: 1s;
-    }
-  </style>
-  <body class="bg-dark ">
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
 
-    <header class=" container-fluid">
-        <nav class="container py-3 d-flex align-items-center justify-content-between">
-            <a href="index.html" class="fs-1 fw-bold text-light text-decoration-none" id="brand">The Quotes!</a>
-            <a href="https://github.com/0me9a" target="_blank" class="btn btn-primary border border-2 btn-local">Github</a>
-        </nav>  
-    </header>
-    <article class="container-fluid bg-dark" style="height:80vh;">
-        <div class="container d-flex align-items-center justify-content-center" style="height: 100%;">
-          <div class="d-flex align-items-center justify-content-center flex-column">
-            <div class="card text-cneter" style="max-width: 600px;">
-                <div class="card-body">
-                  <!-- <h4 class="card-title">Quoto of the Day</h4> -->
-                  <blockquote class="card-text" cite="">
-                    <q></q><br /><br />
-                    <cite class="float-end"></cite>
-                  </blockquote>
-                  
-                </div>
+<style>
+  * {
+    transition: 1s;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<body class="bg-dark">
+  <div id="root" style="height: 100vh">
+    <nav class="p-3 position-absolute end-0">
+      <a href="https://github.com/0ME9A/the-Quotes" target="_blank"
+        class="btn border btn-outline-light border-2  rounded-pill">Github</a>
+    </nav>
+
+    <article class="container-fluid" style="height: 80vh">
+      <div class="container d-flex align-items-center justify-content-center" style="height: 100%">
+        <div class="d-flex align-items-center justify-content-center flex-column">
+          <div class="card text-cneter bg-dark shadow-lg p-3" style="max-width: 600px; min-width: 400px;;">
+            <div class="card-body">
+              <blockquote class="text-center">
+                <q class=" fs-3"></q><br /><br />
+              <cite class="float-end"></cite>
+              </blockquote>
+              <div class="container-fluid p-0 pt-3 py-1 d-flex justify-content-between">
+                <a href="" target="_blank" referrerpolicy="no-referrer" id="share-on-twitter"
+                  class="p-2 d-flex justify-content-center text-light align-items-center rounded-pill" 
+                  style="width: 42px; height: 42px;"><i class="fa-brands fa-twitter"></i></a>
+
+                <button id="next-btn" class="btn border-0 px-3 align-self-end text-light btn-local rounded-pill">
+                  Next
+                </button>
               </div>
-              <button class="btn btn-primary align-self-end mt-2 btn-local" id="next">Next</button>
             </div>
+          </div>
         </div>
+      </div>
     </article>
     <footer>
-        <h6 class="text-center py-2 text-secondary">Made with ❤ by <strong>OMEGA</strong></h6>
+      <h6 class="text-center py-2 text-light">
+        Made with ❤ by <strong>OMEGA</strong>
+      </h6>
     </footer>
+  </div>
 
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-  </body>
 </html>
